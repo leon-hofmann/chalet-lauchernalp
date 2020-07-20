@@ -1,15 +1,16 @@
 module.exports = {
-  siteTitle: 'Chalet Rossdörfer Hütte auf der Lauchernalp',
+  siteTitle: 'Chalet Rossdorfer Hütte auf der Lauchernalp',
   manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Rossdorfer Hütte', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/favicon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Rossdorfer Hütte',
+  subHeading:
+    'Ein Chalet auf der Lauchernalp, der Sonnenterrasse des Lötschentals.',
   // social
   socialLinks: [
     {
