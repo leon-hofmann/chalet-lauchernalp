@@ -13,23 +13,23 @@ module.exports = {
     'Ein Chalet auf der Lauchernalp, der Sonnenterrasse des Lötschentals.',
   // social
   socialLinks: [
-    {
-      style: 'brands',
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      style: 'solid',
-      icon: 'fa-envelope',
-      name: 'Email',
-      url: 'mailto:test@example.com',
-    },
+    // {
+    //   style: 'brands',
+    //   icon: 'fa-github',
+    //   name: 'Github',
+    //   url: 'https://github.com/anubhavsrivastava',
+    // },
+    // {
+    //   style: 'brands',
+    //   icon: 'fa-twitter',
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/onlyanubhav',
+    // },
+    // {
+    //   style: 'solid',
+    //   icon: 'fa-envelope',
+    //   name: 'Email',
+    //   url: 'mailto:test@example.com',
+    // },
   ],
 };
