@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/favicon.png',
-  pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/home/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Rossdorfer Hütte',
   subHeading:
     'Ein Chalet auf der Lauchernalp, der Sonnenterrasse des Lötschentals.',
