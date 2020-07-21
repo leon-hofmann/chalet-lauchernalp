@@ -14,7 +14,7 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-        <ul className="actions special">
+        {/* <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
@@ -22,7 +22,7 @@ const IndexPage = () => (
               </a>
             </Scroll>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
