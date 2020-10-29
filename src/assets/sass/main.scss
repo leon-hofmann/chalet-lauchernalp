@@ -290,7 +290,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: _palette(fg-bold);
+  color: _palette(accent7, fg-bold);
   font-weight: _font(weight-extrabold);
   letter-spacing: _size(letter-spacing-alt);
   line-height: 1em;
@@ -1191,6 +1191,10 @@ button,
   @include vendor('align-items', 'center');
   @include vendor('display', 'flex');
 
+  p {
+    color: _palette(accent7, fg-bold);
+  }
+
   .image {
     @include vendor('order', '1');
     border-radius: 0;
@@ -1217,7 +1221,7 @@ button,
     $j: 0.075 * $i;
 
     &:nth-child(#{$i}) {
-      background-color: rgba(0, 0, 0, $j);
+      background-color: rgba(0, 0, 0, 0); // $j
     }
   }
 
@@ -1741,6 +1745,7 @@ button,
     padding: 0.35em 1em;
     position: relative;
     z-index: 1;
+    color: _palette(fg-bold);
 
     &:before,
     &:after {
