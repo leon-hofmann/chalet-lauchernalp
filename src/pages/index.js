@@ -43,7 +43,7 @@ const IndexPage = () => (
         <p>Schlafzimmer für 2 Personen<br />
         Schlafzimmer für 4 Personen (2 Hochbetten)<br />
         Badezimmer mit Badewanne, Dusche, Fußbodenheizung und WC im Untergeschoss
-          zweites, seperates WC im Obergeschoss<br />
+          zweites WC im Obergeschoss<br />
           Küche mit angrenzendem Wohnbereich<br />
           Großer Esstisch und Sofa zum Ausruhen und Entspannen<br />
           Holzofen<br />
