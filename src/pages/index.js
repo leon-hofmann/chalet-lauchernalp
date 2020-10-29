@@ -33,8 +33,26 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style1 special">
       <div className="inner">
-        <header className="major">
-          <h2>
+        {/* <header className="major"> */}
+
+        <header>
+          <h4>Die Rossdorfer Hütte ist ein im traditionellen Stil gebautes Chalet.</h4>
+          <br />
+          <p>Unseren Gästen bieten wir:</p>
+        </header>
+        <p>Schlafzimmer für 2 Personen<br />
+        Schlafzimmer für 4 Personen (2 Hochbetten)<br />
+        Badezimmer mit Badewanne, Dusche, Fußbodenheizung und WC im Untergeschoss
+          zweites, seperates WC im Obergeschoss<br />
+          Küche mit angrenzendem Wohnbereich<br />
+          Großer Esstisch und Sofa zum Ausruhen und Entspannen<br />
+          Holzofen<br />
+          Balkon mit atemberaubender Aussicht auf die Alpen und die Walliser Gletscher<br />
+          <br />
+          Raucher bitten wir, auf dem Balkon oder vor dem Chalet zu rauchen. <br />
+          Aufgrund möglicher Allergien unserer Gäste sind Tiere nicht erwünscht.
+        </p>
+        {/* <h2>
             Arcu aliquet vel lobortis ata nisl
             <br />
             eget augue amet aliquet nisl cep donec
@@ -45,25 +63,8 @@ const IndexPage = () => (
             <br />
             fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
             ullamcorper.
-          </p>
-        </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
+          </p> */}
+        {/* </header> */}
       </div>
     </section>
 
@@ -200,7 +201,7 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-  </Layout>
+  </Layout >
 );
 
 export default IndexPage;
