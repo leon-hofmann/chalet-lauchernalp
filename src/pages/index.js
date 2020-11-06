@@ -75,9 +75,7 @@ const IndexPage = () => (
           <img src={pic1} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Sommer
-          </h2>
+          <h4>Die Lauchernalp im Sommer</h4>
           <p>
             Im Sommer finden Sie alles, was die Natur zu bieten hat: Grösse, Schönheit, Stille, eine reiche Flora und Fauna. Geniessen Sie Ihren Aufenthalt und lassen Sie sich von der intakten Natur inspirieren. Im Sommer empfiehlt sich die Lauchernalp als idealer Ausgangspunkt für diverse Wanderungen unterschiedlichen Schweregrades.
           </p>
@@ -88,9 +86,7 @@ const IndexPage = () => (
           <img src={pic2} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Winter
-          </h2>
+          <h4>Die Lauchernalp im Winter</h4>
           <p>
             Im Winter kommen die Ski, Snowboard- sowie auch Langlauffreunde auf Ihre Kosten. Das Skigebiet Lauchernalp bietet dem Wintergast alle erdenkbaren touristischen Attraktionen: Alpinskifahren, Snowboarden, Varianten- und Tourenskifahren, Winterwandern, Langlaufen, Schlitteln, Pferdeschlittenfahrten, Curling und Eislauf.
           </p>
@@ -104,9 +100,9 @@ const IndexPage = () => (
           {/* <h2>
             Anreise
           </h2> */}
-          <h6>Anreise mit der Bahn</h6>
+          <h4>Anreise mit der Bahn</h4>
           <p>In Goppenstein, am Eingang zum Lötschental, halten alle Schnellzüge (jede Stunde ein Inter- oder Eurocity) der Linie Basel-Bern-Lötschberg-Simplin-Italien. Von Goppenstein geht es weiter mit dem Bus, der direkt in Wiler vor der Gondelstation hält.</p>
-          <h6>Anreise mit dem Auto</h6>
+          <h4>Anreise mit dem Auto</h4>
           <p>Aus dem Norden und Osten über Bern nach Spiez. Anschließend auf der gut ausgebauten Hauptstraße nach Kandersteg zur Autoverladung. In 15 min fährt Sie der Zug nach Goppenstein und von dort sind es nur noch wenige Minuten ins Lötschental.</p>
         </div>
       </section>
@@ -118,9 +114,9 @@ const IndexPage = () => (
           {/* <h2>
             Anreise
           </h2> */}
-          <h6>Anreise im Winter</h6>
+          <h4>Anreise im Winter</h4>
           <p>Im Winter ist die Lauchernalp nur mit der Seilbahn zu erreichen. An der Talstation stehen Parkplätze zur Verfügung. Personen- und Gepäcktransport erfogt mit der Seilbahn. Der Weitertransport von Gepäck kann gegen Gebühr mit einem Pistenfahrzeug erfolgen. Bei leichtem Gepäck und gutem skifahrerischem Können ist es auch möglich, das Chalet unter Nutzung des Skiliftes auf Skiern anzufahren.</p>
-          <h6>Anreise im Sommer</h6>
+          <h4>Anreise im Sommer</h4>
           <p>Im Sommer ist die Alp über eine gebührenpflichtige Strasse erreichbar. Mit dem PKW kann man bis auf ca. 50 m an das Chalet heranfahren. Ein Parkplatz ist vorhanden. Fahrzeiten der Bergbahn: http://www.loetschental.ch, dann Bergbahnen anklicken.
           </p>
         </div>
