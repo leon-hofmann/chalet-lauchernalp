@@ -34,21 +34,22 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         {/* <header className="major"> */}
-
         <header>
-          <h4>Die Rossdorfer Hütte ist ein im traditionellen Stil gebautes Chalet.</h4>
+          <h4>Die Rossdorfer Hütte ist ein im traditionellen Stil gebautes Chalet</h4>
           <br />
           <p>Unseren Gästen bieten wir:</p>
         </header>
-        <p>Schlafzimmer für 2 Personen<br />
-        Schlafzimmer für 4 Personen (2 Hochbetten)<br />
-        Badezimmer mit Badewanne, Dusche, Fußbodenheizung und WC im Untergeschoss
-          zweites WC im Obergeschoss<br />
-          Küche mit angrenzendem Wohnbereich<br />
-          Großer Esstisch und Sofa zum Ausruhen und Entspannen<br />
-          Holzofen<br />
-          Balkon mit atemberaubender Aussicht auf die Alpen und die Walliser Gletscher<br />
-          <br />
+        <ul>
+          <li>Schlafzimmer für 2 Personen</li>
+          <li>Schlafzimmer für 4 Personen (2 Hochbetten)</li>
+          <li>Badezimmer mit Badewanne, Fußbodenheizung und WC im Untergeschoss</li>
+          <li>Zweites WC im Obergeschoss</li>
+          <li>Küche mit angrenzendem Wohnbereich</li>
+          <li>Großer Esstisch und Sofa zum Ausruhen und Entspannen</li>
+          <li>Holzofen</li>
+          <li>Balkon mit atemberaubender Aussicht auf die Alpen und die Walliser Gletscher</li>
+        </ul>
+        <p>
           Raucher bitten wir, auf dem Balkon oder vor dem Chalet zu rauchen. <br />
           Aufgrund möglicher Allergien unserer Gäste sind Tiere nicht erwünscht.
         </p>
@@ -75,13 +76,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Sommer
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Im Sommer finden Sie alles, was die Natur zu bieten hat: Grösse, Schönheit, Stille, eine reiche Flora und Fauna. Geniessen Sie Ihren Aufenthalt und lassen Sie sich von der intakten Natur inspirieren. Im Sommer empfiehlt sich die Lauchernalp als idealer Ausgangspunkt für diverse Wanderungen unterschiedlichen Schweregrades.
           </p>
         </div>
       </section>
@@ -91,13 +89,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Winter
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Im Winter kommen die Ski, Snowboard- sowie auch Langlauffreunde auf Ihre Kosten. Das Skigebiet Lauchernalp bietet dem Wintergast alle erdenkbaren touristischen Attraktionen: Alpinskifahren, Snowboarden, Varianten- und Tourenskifahren, Winterwandern, Langlaufen, Schlitteln, Pferdeschlittenfahrten, Curling und Eislauf.
           </p>
         </div>
       </section>
@@ -106,14 +101,27 @@ const IndexPage = () => (
           <img src={pic3} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          {/* <h2>
+            Anreise
+          </h2> */}
+          <h6>Anreise mit der Bahn</h6>
+          <p>In Goppenstein, am Eingang zum Lötschental, halten alle Schnellzüge (jede Stunde ein Inter- oder Eurocity) der Linie Basel-Bern-Lötschberg-Simplin-Italien. Von Goppenstein geht es weiter mit dem Bus, der direkt in Wiler vor der Gondelstation hält.</p>
+          <h6>Anreise mit dem Auto</h6>
+          <p>Aus dem Norden und Osten über Bern nach Spiez. Anschließend auf der gut ausgebauten Hauptstraße nach Kandersteg zur Autoverladung. In 15 min fährt Sie der Zug nach Goppenstein und von dort sind es nur noch wenige Minuten ins Lötschental.</p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic3} alt="" />
+        </div>
+        <div className="content">
+          {/* <h2>
+            Anreise
+          </h2> */}
+          <h6>Anreise im Winter</h6>
+          <p>Im Winter ist die Lauchernalp nur mit der Seilbahn zu erreichen. An der Talstation stehen Parkplätze zur Verfügung. Personen- und Gepäcktransport erfogt mit der Seilbahn. Der Weitertransport von Gepäck kann gegen Gebühr mit einem Pistenfahrzeug erfolgen. Bei leichtem Gepäck und gutem skifahrerischem Können ist es auch möglich, das Chalet unter Nutzung des Skiliftes auf Skiern anzufahren.</p>
+          <h6>Anreise im Sommer</h6>
+          <p>Im Sommer ist die Alp über eine gebührenpflichtige Strasse erreichbar. Mit dem PKW kann man bis auf ca. 50 m an das Chalet heranfahren. Ein Parkplatz ist vorhanden. Fahrzeiten der Bergbahn: http://www.loetschental.ch, dann Bergbahnen anklicken.
           </p>
         </div>
       </section>
