@@ -117,7 +117,39 @@ const IndexPage = () => (
           <h4>Anreise im Winter</h4>
           <p>Im Winter ist die Lauchernalp nur mit der Seilbahn zu erreichen. An der Talstation stehen Parkplätze zur Verfügung. Personen- und Gepäcktransport erfogt mit der Seilbahn. Der Weitertransport von Gepäck kann gegen Gebühr mit einem Pistenfahrzeug erfolgen. Bei leichtem Gepäck und gutem skifahrerischem Können ist es auch möglich, das Chalet unter Nutzung des Skiliftes auf Skiern anzufahren.</p>
           <h4>Anreise im Sommer</h4>
-          <p>Im Sommer ist die Alp über eine gebührenpflichtige Strasse erreichbar. Mit dem PKW kann man bis auf ca. 50 m an das Chalet heranfahren. Ein Parkplatz ist vorhanden. Fahrzeiten der Bergbahn: http://www.loetschental.ch, dann Bergbahnen anklicken.
+          <p>Im Sommer ist die Alp über eine gebührenpflichtige Strasse erreichbar. Mit dem PKW kann man bis auf ca. 50 m an das Chalet heranfahren. Ein Parkplatz ist vorhanden. Die Fahrzeiten der Bergbahn finden Sie <a href="https://www.loetschental.ch/de/bergbahnen/fahrplan" target="_blank">hier</a>.
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic3} alt="" />
+        </div>
+        <div className="content">
+          <h4>Preise im Winter</h4>
+          <p>
+            <ul>
+              <li>150 CHF pro Nacht</li>
+              <li>100 CHF pro Woche für Strom und Brennholz</li>
+              <li>260 CHF einmalig für Endreinigung</li>
+              <li>25 CHF einmalig pro Person für Bettwäsche</li>
+            </ul>
+              Die Mindestmietdauer beträgt im Winter eine Woche.
+          </p>
+          <h4>Preise im Sommer</h4>
+          <p>
+            <ul>
+              <li>700 CHF pro Woche</li>
+              <li>100 CHF pro Woche für Strom und Parkplatz</li>
+              <li>35 CHF einmalig für die Auffahrt auf die Lauchernalp (im Tourismusbüro zu bezahlen)</li>
+            </ul>
+          </p>
+          <h4>Weiteres</h4>
+          <p>
+            <ul>
+              <li>Kurtaxe Erwachsene 2 CHF pro Tag</li>
+              <li>Kurtaxe Kinder 1 CHF pro Tag</li>
+            </ul>
           </p>
         </div>
       </section>
