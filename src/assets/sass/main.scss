@@ -1997,7 +1997,7 @@ body.is-mobile {
 
 #footer {
   @include padding(6em, 0);
-  background-color: darken(_palette(bg), 8);
+  background-color: _palette(bg);
   text-align: center;
 
   .icons {
@@ -2021,7 +2021,7 @@ body.is-mobile {
     text-transform: uppercase;
 
     li {
-      border-left: solid 1px _palette(fg-light);
+      border-left: solid 1px _palette(fg);
       display: inline-block;
       line-height: 1em;
       margin-left: 1em;
@@ -2080,7 +2080,7 @@ body.landing,
   }
 
   #footer {
-    background-color: darken(transparentize(_palette(bg), 0.1), 8);
+    background-color: _palette(bg);
   }
 }
 

@@ -16,10 +16,10 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; chalet-lauchernalp.ch</li>
         <li>
         <a href="mailto:brunhild-hofmann@t-online.de">Kontakt</a>
         </li>
+        <li>&copy; chalet-lauchernalp.ch</li>
       </ul>
     </footer>
   );
