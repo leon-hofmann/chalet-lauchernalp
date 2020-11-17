@@ -18,7 +18,7 @@ export default function Footer() {
       <ul className="copyright">
         <li>&copy; chalet-lauchernalp.ch</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+        <a href="mailto:brunhild-hofmann@t-online.de">Kontakt</a>
         </li>
       </ul>
     </footer>
