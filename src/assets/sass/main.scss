@@ -657,7 +657,7 @@ input[type='radio'] {
 .box {
   border-radius: 3px;
   border: solid 2px _palette(border);
-  margin-bottom: _size(element-margin);
+  // margin-bottom: _size(element-margin);
   padding: 1.5em;
 
   > :last-child,
