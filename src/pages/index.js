@@ -109,7 +109,7 @@ const IndexPage = () => (
           <h4>Anreise im Winter</h4>
           <p>Im Winter ist die Lauchernalp nur mit der Seilbahn zu erreichen. An der Talstation stehen Parkplätze zur Verfügung. Personen- und Gepäcktransport erfogt mit der Seilbahn. Der Weitertransport von Gepäck kann gegen Gebühr mit einem Pistenfahrzeug erfolgen. Bei leichtem Gepäck und gutem skifahrerischem Können ist es auch möglich, das Chalet unter Nutzung des Skiliftes auf Skiern anzufahren.</p>
           <h4>Anreise im Sommer</h4>
-          <p>Im Sommer ist die Alp über eine gebührenpflichtige Strasse erreichbar. Mit dem PKW kann man bis auf ca. 50 m an das Chalet heranfahren. Ein Parkplatz ist vorhanden. Die Fahrzeiten der Bergbahn finden Sie <a href="https://www.loetschental.ch/de/bergbahnen/fahrplan" target="_blank">hier</a>.
+          <p>Im Sommer ist die Alp über eine gebührenpflichtige Strasse erreichbar. Mit dem PKW kann man bis auf ca. 50 m an das Chalet heranfahren. Ein Parkplatz ist vorhanden. Die Fahrzeiten der Bergbahn finden Sie <a href="https://www.loetschental.ch/de/bergbahnen/fahrplan" target="_blank" rel="noreferrer">hier</a>.
           </p>
         </div>
       </section>
@@ -148,19 +148,21 @@ const IndexPage = () => (
     </section>
 
     <section>
-      <div className="box alt">
-        <div className="wrapper style3 row">
-          <div className="col-4"><span className="image fit"><img src={haus_pic01} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic02} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic03} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic04} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic05} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic06} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic07} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic08} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={haus_pic09} alt="" /></span></div>
+        <div className="wrapper">
+          <div className="inner">
+            <div className="style3 row gtr-50 gtr-uniform">
+              <div className="col-4"><span className="image fit"><img src={haus_pic01} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic02} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic03} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic04} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic05} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic06} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic07} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic08} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={haus_pic09} alt="" /></span></div>
+            </div>
+          </div>
         </div>
-      </div>
     </section>
 
 
