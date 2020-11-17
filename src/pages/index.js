@@ -4,9 +4,20 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic01 from '../assets/images/gras.jpg';
+import pic02 from '../assets/images/stausee_ferden.png';
+import pic03 from '../assets/images/wanderung.png';
+import pic04 from '../assets/images/schwarzsee.png';
+import pic05 from '../assets/images/abendsonne.png';
+import haus_pic01 from '../assets/images/01_balkon.png';
+import haus_pic02 from '../assets/images/02_leseecke.png';
+import haus_pic03 from '../assets/images/03_esstisch.png';
+import haus_pic04 from '../assets/images/04_ofen.png';
+import haus_pic05 from '../assets/images/05_küche.png';
+import haus_pic06 from '../assets/images/06_doppelzimmer.png';
+import haus_pic07 from '../assets/images/07_4erzimmer.png';
+import haus_pic08 from '../assets/images/08_schneeraupe_crop.png';
+import haus_pic09 from '../assets/images/09_eingang.png';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -53,26 +64,13 @@ const IndexPage = () => (
           Raucher bitten wir, auf dem Balkon oder vor dem Chalet zu rauchen. <br />
           Aufgrund möglicher Allergien unserer Gäste sind Tiere nicht erwünscht.
         </p>
-        {/* <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p> */}
-        {/* </header> */}
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={pic01} alt="" />
         </div>
         <div className="content">
           <h4>Die Lauchernalp im Sommer</h4>
@@ -83,7 +81,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={pic02} alt="" />
         </div>
         <div className="content">
           <h4>Die Lauchernalp im Winter</h4>
@@ -94,12 +92,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic03} alt="" />
         </div>
         <div className="content">
-          {/* <h2>
-            Anreise
-          </h2> */}
           <h4>Anreise mit der Bahn</h4>
           <p>In Goppenstein, am Eingang zum Lötschental, halten alle Schnellzüge (jede Stunde ein Inter- oder Eurocity) der Linie Basel-Bern-Lötschberg-Simplin-Italien. Von Goppenstein geht es weiter mit dem Bus, der direkt in Wiler vor der Gondelstation hält.</p>
           <h4>Anreise mit dem Auto</h4>
@@ -108,12 +103,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic04} alt="" />
         </div>
         <div className="content">
-          {/* <h2>
-            Anreise
-          </h2> */}
           <h4>Anreise im Winter</h4>
           <p>Im Winter ist die Lauchernalp nur mit der Seilbahn zu erreichen. An der Talstation stehen Parkplätze zur Verfügung. Personen- und Gepäcktransport erfogt mit der Seilbahn. Der Weitertransport von Gepäck kann gegen Gebühr mit einem Pistenfahrzeug erfolgen. Bei leichtem Gepäck und gutem skifahrerischem Können ist es auch möglich, das Chalet unter Nutzung des Skiliftes auf Skiern anzufahren.</p>
           <h4>Anreise im Sommer</h4>
@@ -123,7 +115,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic05} alt="" />
         </div>
         <div className="content">
           <h4>Preise im Winter</h4>
@@ -158,18 +150,15 @@ const IndexPage = () => (
     <section>
       <div className="box alt">
         <div className="wrapper style3 row">
-          <div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-          <div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic01} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic02} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic03} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic04} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic05} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic06} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic07} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic08} alt="" /></span></div>
+          <div className="col-4"><span className="image fit"><img src={haus_pic09} alt="" /></span></div>
         </div>
       </div>
     </section>
