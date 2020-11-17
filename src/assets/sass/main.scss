@@ -1779,6 +1779,10 @@ button,
     }
   }
 
+  #subHeading {
+    color: white;
+  }
+
   .more {
     @include vendor(
       'transition',
