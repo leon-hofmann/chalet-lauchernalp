@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 export default function Footer() {
   return (
     <footer id="footer">
@@ -16,9 +17,14 @@ export default function Footer() {
       </ul> */}
       <ul className="copyright">
         <li>
-        <a href="mailto:brunhild-hofmann@t-online.de">Kontakt</a>
+          <a href="mailto:brunhild-hofmann@t-online.de">Kontakt</a>
         </li>
-        <li>&copy; chalet-lauchernalp.ch</li>
+        <li>
+        <Link to="/Impressum">Impressum</Link>
+          </li>
+        <li>
+          &copy; chalet-lauchernalp.ch
+          </li>
       </ul>
     </footer>
   );
