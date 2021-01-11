@@ -87,6 +87,8 @@ const IndexPage = () => (
           <h4>Die Lauchernalp im Winter</h4>
           <p>
             Im Winter kommen die Ski, Snowboard- sowie auch Langlauffreunde auf Ihre Kosten. Das Skigebiet Lauchernalp bietet dem Wintergast alle erdenkbaren touristischen Attraktionen: Alpinskifahren, Snowboarden, Varianten- und Tourenskifahren, Winterwandern, Langlaufen, Schlitteln, Pferdeschlittenfahrten, Curling und Eislauf.
+            <br/>
+            Vom Chalet aus erreicht man auf Skiern das untere Ende des Sessellifts. Vom oberen Ende des Lifts kann man ebenfalls direkt zur Hütte fahren.
           </p>
         </div>
       </section>
@@ -148,21 +150,21 @@ const IndexPage = () => (
     </section>
 
     <section>
-        <div className="wrapper">
-          <div className="inner">
-            <div className="style3 row gtr-50 gtr-uniform">
-              <div className="col-4"><span className="image fit"><img src={haus_pic01} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic02} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic03} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic04} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic05} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic06} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic07} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic08} alt="" /></span></div>
-              <div className="col-4"><span className="image fit"><img src={haus_pic09} alt="" /></span></div>
-            </div>
+      <div className="wrapper">
+        <div className="inner">
+          <div className="style3 row gtr-50 gtr-uniform">
+            <div className="col-4"><span className="image fit"><img src={haus_pic01} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic02} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic03} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic04} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic05} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic06} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic07} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic08} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={haus_pic09} alt="" /></span></div>
           </div>
         </div>
+      </div>
     </section>
 
 
