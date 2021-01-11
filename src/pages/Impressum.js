@@ -16,8 +16,8 @@ const IndexPage = () => <Layout>
 Addition					<h4>Kontakt</h4>
 					<p><Link to="/">chalet-lauchernalp.ch</Link> vertreten durch</p>
 					<p>Brunhild Hofmann<br />
-					Dieburger Straße 98 A<br />
-						64287 Darmstadt</p>
+					Darmstraße 14<br />
+					64287 Darmstadt</p>
 					<p>Tel.: +49 6151 45475</p>
 					<p><a href="mailto:brunhild-hofmann@t-online.de">brunhild-hofmann@t-online.de</a></p>
 					<hr />
