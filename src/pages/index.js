@@ -133,16 +133,17 @@ const IndexPage = () => (
           <h4>Preise im Sommer</h4>
           <p>
             <ul>
-              <li>700 CHF pro Woche</li>
+              <li>800 CHF pro Woche</li>
               <li>100 CHF pro Woche für Strom und Parkplatz</li>
-              <li>35 CHF einmalig für die Auffahrt auf die Lauchernalp (im Tourismusbüro zu bezahlen)</li>
+              <li>50 CHF Maut für die Auffahrt zur Lauchernalp (am Schalter der Bergbahn zu bezahlen)</li>
             </ul>
           </p>
           <h4>Weiteres</h4>
           <p>
             <ul>
-              <li>Kurtaxe Erwachsene 2 CHF pro Tag</li>
-              <li>Kurtaxe Kinder 1 CHF pro Tag</li>
+              <li>Kurtaxe Erwachsene 4,80 CHF pro Tag</li>
+              <li>Kurtaxe Kinder 2,40 CHF pro Tag</li>
+              <li>Es ist möglich, im Sommer selbst zu reinigen und eigene Bettwäsche mitzubringen</li>
             </ul>
           </p>
         </div>
