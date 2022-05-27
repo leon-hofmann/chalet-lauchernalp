@@ -133,7 +133,7 @@ const IndexPage = () => (
           <h4>Preise im Sommer</h4>
           <p>
             <ul>
-              <li>800 CHF pro Woche</li>
+              <li>700 CHF pro Woche</li>
               <li>100 CHF pro Woche für Strom und Parkplatz</li>
               <li>50 CHF Maut für die Auffahrt zur Lauchernalp (am Schalter der Bergbahn zu bezahlen)</li>
             </ul>
