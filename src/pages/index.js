@@ -123,10 +123,10 @@ const IndexPage = () => (
           <h4>Preise im Winter</h4>
           <p>
             <ul>
-              <li>150 CHF pro Nacht</li>
+              <li>200 CHF pro Nacht</li>
               <li>100 CHF pro Woche für Strom und Brennholz</li>
               <li>260 CHF einmalig für Endreinigung</li>
-              <li>25 CHF einmalig pro Person für Bettwäsche</li>
+              <li>29 CHF einmalig pro Person für Bettwäsche</li>
             </ul>
               Die Mindestmietdauer beträgt im Winter eine Woche.
           </p>
